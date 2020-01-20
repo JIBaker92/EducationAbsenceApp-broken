@@ -62,7 +62,7 @@ public class Register extends AppCompatActivity {
                 }
 
                 if(password.length() < 6){
-                    mPassword.setError("Password must be more than 2ix characters.");
+                    mPassword.setError("Password must be more than six characters.");
                 }
 
                 progressBar.setVisibility(View.VISIBLE);
