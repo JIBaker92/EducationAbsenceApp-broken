@@ -85,5 +85,12 @@ public class Register extends AppCompatActivity {
                 });
             }
         });
+
+        mLoginBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(),Login.class));
+            }
+        });
     }
 }
